@@ -1,1 +1,9 @@
-
+Download or clone this repo and add it to your project directory. Go to firebase.console. follow the documentation page for hosting and authentication using Email and password. 
+Requirements are listed below -- 
+1. install npm first
+2. Connect your web application to firebase project and bulid for hosting and authentication.
+3. Add firebase SDK to firebase.js.
+4. Run firebase init --only hosting choose build as public and other options accordingly. 
+5. Run npm run build then it will create a build file with static folder cfeation inside it so that you can test your changes locally on local host before you deploy.
+Run firebase deploy it will deploy your app with projectnme.web.app as url.
+run npm start to check locally before deploy of the project. Few of the directory which gets created automatically when you run firebase init, install npm and npm run build that I have not included in the repo.
