@@ -63,17 +63,17 @@ contract publisher{
     //unsubscribe a subscriber from a topic of this publisher
     function unSubscribe(uint _sid, string memory _topic) public{
 
-        bool kaamHogaya = false;
+        bool flag = false;
         
         for(uint i = 0; i < subscription[_topic].length; i += 1){
             if(subscription[_topic][i] == _sid){
-                kaamHogaya = true;
+                flag = true;
                 delete subscription[_topic][i];
                 break;
             }
         }
 
-        require(kaamHogaya == true, "The id was never registered in the topic");
+        require(flag == true, "The id was never registered in the topic");
 
     }
 
