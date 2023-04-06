@@ -36,13 +36,13 @@ export default function index(){
             <br></br>
             <form>
                 <label for="fname" class="txt" > Email </label><br></br>
-                <input type="text" id="fname" name="fname" value=""></input><br></br>
+                <input type="text" id="fname" name="fname" value="" class="k"></input><br></br>
                 <label for="lname" class="txt">Topic</label><br></br>
-                <input type="text" id="fname" name="fname" value=""></input><br></br>
+                <input type="text" id="fname" name="fname" value="" class="k"></input><br></br>
                 <label for="lname" class="txt1">Content</label><br></br>
-                <input type="text" id="fname" name="fname" value=""></input>
+                <input type="text" id="fname" name="fname" value="" class="k"></input>
                 <br></br>
-                <input type="submit" id="submit" class = "submit" onclick="SubmitData()"></input>
+                <input type="submit" id="submit" class = "m" onclick="SubmitData()"></input>
             </form>
         </div>
         
