@@ -26,7 +26,7 @@ export default function index(){
         <div class="sidenav">
             <a href="/main"><b>Subscribed</b></a>
             <a href="/subscribe"><b>New Subscription</b></a>
-            <a href="/publish"><b>Publish</b></a>
+            <a href="/publish" class="tint active"><b>Publish</b></a>
             
           </div>
 
