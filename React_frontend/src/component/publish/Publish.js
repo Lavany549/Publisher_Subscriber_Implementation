@@ -18,7 +18,7 @@ export default function index(){
                 
                 
                 
-                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                <li><a href="/login"><span class="glyphicon glyphicon-log-out"></span></a></li>
               </ul>
             </div>
           </div>
