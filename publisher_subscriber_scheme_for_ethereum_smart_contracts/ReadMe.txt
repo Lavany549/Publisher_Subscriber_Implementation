@@ -66,6 +66,7 @@ Run the following command to create a new React app:
     paste it in the abi variable in the pubsub.js file in src/contracts
     after deploying it, copy the deployment address and paste it in the addr variable in the pubsub.js file in src/contracts
     save all.
+12.Open mongoDB and connect to your localhost.
 11.Open 3 different terminals in current location
 	terminal_1: cd .\src\DB\
 		    mongod --dbpath ./
