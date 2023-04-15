@@ -29,12 +29,14 @@
 	If facing issues please follow the link: https://www.youtube.com/watch?v=lv4HEyiw4EQ&t=149s&pp=ygUWYWRkIGdhbmNoZSBpbiBtZXRhbWFzaw%3D%3D
 
 5.deploy contract
-	go to remix site
-	in the src code file, go to src/contracts/pubsub.sol
-	copy paste the code in remix (https://remix.ethereum.org/)
-	save it,... compile it
-	before deployment change environment to injected provider - Ganache Provider and change Ganache JSON-RPC Endpoint: http://127.0.0.1:7545
-	deploy it
+	Download the file from the location 
+	https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip 
+	-Extract and go to src/contracts/pubsub.sol and copy the pubsub.sol.
+	-go to remix site  (https://remix.ethereum.org/)
+	-open a new file, name it as pubsub.sol and  paste the code.
+	-save it,... compile it
+	-before deployment change environment to injected provider - Ganache Provider and change Ganache JSON-RPC Endpoint: http://127.0.0.1:7545
+	-deploy it
 
 /***************************************************************************************************************/
 VERY IMPORTANT NOTES...
@@ -54,14 +56,12 @@ Run the following command to create a new React app:
 	
 7.cd publisher_subscriber_scheme_for_ethereum_smart_contracts
 
-8.Download the file from the location 
-https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip 
-extract and replace src folder and package.json file.
+8.In step 5, downloaded file from git  need to extract and  replace with src folder and package.json file in the current folder.
 
 9.npm install
 
 10.in the code files...
-    go to the compile page of remix (https://remix.ethereum.org/)
+    go to the compile page of remix of pubsub.sol 
     copy the ABI code of the pubsub.sol file... there is a button in the last of the compile tab
     paste it in the abi variable in the pubsub.js file in src/contracts
     after deploying it, copy the deployment address and paste it in the addr variable in the pubsub.js file in src/contracts
