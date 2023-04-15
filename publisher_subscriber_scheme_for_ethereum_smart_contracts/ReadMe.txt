@@ -30,7 +30,7 @@
 
 5.deploy contract
 	Download the file from the location 
-	https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip 
+	https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip
 	-Extract and go to src/contracts/pubsub.sol and copy the pubsub.sol.
 	-go to remix site  (https://remix.ethereum.org/)
 	-open a new file, name it as pubsub.sol and  paste the code.
