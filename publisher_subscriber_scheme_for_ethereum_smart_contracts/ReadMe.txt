@@ -58,9 +58,9 @@ note: npm naming restrictions name can no longer contain capital letters
 
 7.cd publisher_subscriber_scheme_for_ethereum_smart_contracts
 
-8.Download the file: 
+8.Download the file from the location 
 https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip 
-extract to current folder, replace src folder and package.json file.
+copy and replace src folder and package.json file.
 
 9.npm install
 
