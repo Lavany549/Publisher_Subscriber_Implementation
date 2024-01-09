@@ -74,3 +74,7 @@ Run the following command to create a new React app:
 	terminal_3: npm start
 
 YOU ARE GOOD TO GO
+
+
+![Architecture](path/to/your/architecture.jpg)
+
