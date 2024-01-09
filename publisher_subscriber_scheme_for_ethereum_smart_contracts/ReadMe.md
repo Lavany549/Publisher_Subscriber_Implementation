@@ -76,7 +76,7 @@ Run the following command to create a new React app:
 YOU ARE GOOD TO GO
 
 The flow of app ans architecture is as follows:
-![Architecture](path/to/your/pub-sub_architecture.png)
-![Flow](path/to/your/architecture.png)
+![Architecture](pub-sub_architecture.png)
+![Flow](architecture.jpg)
 
 
